@@ -11,7 +11,6 @@ function draw() {
   // fundo azul claro
   background(135, 206, 235);
 
-  // o ponto continua se movendo aleatoriamente
   x = x + random(-5, 5);
   y = y + random(-5, 5);
   x = constrain(x, 0, 800);
